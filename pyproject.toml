@@ -1,0 +1,33 @@
+[project]
+name = "townly"
+version = "1.0.0"
+description = "A family rewards app for earning points through walking and solar activity, then redeeming them for local perks."
+requires-python = ">=3.10"
+authors = [
+    { name = "Tee Rru", email = "2025137403@student.uitm.edu.my" }
+]
+dependencies = [
+    "flet",
+    "httpx2",
+    "flet-webview",
+    "flet-charts",
+    "qrcode"
+]
+
+[dependency-groups]
+dev = [
+    "flet-cli",
+    "flet-desktop",
+    "flet-web"
+]
+
+[tool.flet.metadata]
+title = "Townly"
+
+[tool.flet.gallery]
+categories = ["Getting Started"]
+
+[tool.flet]
+org = "dev.flet"
+company = "Tee Rru"
+copyright = "Copyright (C) 2026 by Tee Rru"
